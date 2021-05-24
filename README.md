@@ -9,7 +9,7 @@ wechatApp: Leisuer 服务器端
 ##### node.js 内置模块 =>[http,querystring] 
 
 
-##### npm包 => [nodemon]
+##### npm包 => [nodemon,mysql]
 
 
 #### 安装教程
@@ -21,3 +21,8 @@ wechatApp: Leisuer 服务器端
 1.yarn run dev
 
 #### 目录结构
+|  文件夹 | 文件名 | 说明 |
+| :----: | :----: |:----:|
+| bin |  |  |
+|  | www.js |  |
+

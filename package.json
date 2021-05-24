@@ -6,9 +6,12 @@
   "author": "nipengcheng <nipc672@foxmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev":"nodemon bin/www.js"
+    "dev": "nodemon bin/www.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
   }
 }

@@ -1,7 +1,7 @@
 // 数据模型
 class BaseModel {
     constructor(data, message) {
-        if ((typeof data) = "string") {
+        if ((typeof data) === "string") {
             this.message = data;
             data = null;
             message = null;
@@ -18,14 +18,14 @@ class BaseModel {
 class SuccessModel extends BaseModel {
     constructor(data, message) {
         super(data, message)
-        this.erron = 0;
+        this.errno = 0;
     }
 }
 // 失败时返回的数据模型
 class ErrorModel extends BaseModel {
     constructor(data, message) {
         super(data, message)
-        this.erron = -1;
+        this.errno = -1;
     }
 }
 module.exports = {
