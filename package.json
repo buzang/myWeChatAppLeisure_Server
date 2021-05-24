@@ -1,11 +1,14 @@
 {
-  "dependencies": {
-    "express": "^4.17.1"
-  },
   "name": "myWeChatAppLeisure_Server",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "repository": "https://gitee.com/nipengcheng/myWeChatAppLeisure_Server.git",
   "author": "nipengcheng <nipc672@foxmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev":"nodemon bin/www.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
