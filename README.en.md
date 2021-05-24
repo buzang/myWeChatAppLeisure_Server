@@ -8,15 +8,13 @@ Software architecture description
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  yarn istall
+
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  yarn run dev
+
 
 #### Contribution
 
