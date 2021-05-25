@@ -1,11 +1,17 @@
 const { execSQL } = require("../database/mysql")
 
 
-getList = (goodsid) => {
-  console.log(goodsid);
-  const sql = `SELECT * FROM goods WHERE goods_id = ?;`
-  return execSQL(sql,[goodsid])
+getGoodsList = () => {
+    const sql = `SELECT * FROM goods;`
+    return execSQL(sql)
 }
+
+
+
+
+
+
+
 module.exports = {
-  getList
+    getGoodsList
 }
